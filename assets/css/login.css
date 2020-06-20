@@ -1,0 +1,47 @@
+html,body{
+    height: 100%;
+    background: url('../images/login_bg.jpg');
+    background-size: cover;
+    overflow: hidden;
+}
+
+.header{
+    padding-top: 20px;
+}
+
+.center-box{
+    width: 400px;
+    height: 310px;
+    margin: 140px auto;
+    background-color: aliceblue;
+}
+
+.title{
+    text-align: center;
+    height: 60px;
+    line-height: 60px;
+}
+
+.layui-form{
+    padding: 0 30px;
+}
+
+.links{
+    display: flex;
+    justify-content: flex-end;
+    /* text-align: right; */
+}
+
+.layui-form-item{
+    position: relative;
+}
+
+.layui-icon{
+    position: absolute;
+    left: 10px;
+    top: 10px;
+}
+
+.layui-input{
+    padding-left: 30px;
+}
